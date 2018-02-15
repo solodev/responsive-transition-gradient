@@ -1,5 +1,5 @@
 # responsive-transition-gradient
-Don't neglect the small elements of building a mobile-responsive website. Here's how to craft a collapsible footer to improve your visitors' navigation regardless of what screen they use.
+Don't neglect the small elements of building a mobile-responsive website. Here's how to craft transitioning gradient buttons.
   		  
 ## Tutorial		  
 For detailed instruction's, view Solodev's [How to Create a Collapsible Footer](https://www.solodev.com/blog/how-to-create-a-collapsible-footer.stml) article.
