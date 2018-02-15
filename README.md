@@ -27,7 +27,7 @@ The tutorial contains the following basic HTML markup.
 
 ## CSS
 
-All required CSS is contained with collapsible-footer.scss
+All required CSS is contained with transition-gradient.css
 
 
 ## External Resources
