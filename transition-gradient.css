@@ -1,0 +1,42 @@
+.gray-gradient {
+    background: #f5f5f5; 
+    background: linear-gradient(to bottom, #fff 0%,#eae5e5  100%); 
+}
+.gray-gradient:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+    background: linear-gradient(to bottom, #fff 0%,#d2cece 100%);
+    transition: opacity .35s ease-in-out;
+}
+
+.blue-gradient {
+	background: #0569b6 ; 
+	background: linear-gradient(to bottom, #0569b6  0%,#04497e  100%); 
+}
+.blue-gradient:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #0569b6 ; 
+    background: linear-gradient(to bottom, #0569b6  0%,#071633  100%); 
+    transition: opacity .35s ease-in-out;
+}
+
+.blue-gradient a,
+.gray-gradient a {
+    position: relative;
+    z-index: 1;
+}
+
+.blue-gradient:hover:before,
+.gray-gradient:hover:before {
+    opacity: 0;
+}
